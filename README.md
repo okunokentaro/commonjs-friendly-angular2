@@ -9,7 +9,7 @@ npm install commonjs-friendly-angular2
 
 After the `npm install`, wait a minute :coffee:
 
-When all is finished, you can use `./node_modules/commonjs-friendly-angular2/products/` of contents as you please:)
+When all is finished, you can use `./node_modules/commonjs-friendly-angular2/products/` of contents as you please :) (For example, use in Browserify etc.)
 
 ## License
 
