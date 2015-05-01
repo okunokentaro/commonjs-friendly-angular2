@@ -1,0 +1,31 @@
+{
+  "name": "commonjs-friendly-angular2",
+  "description": "Automatic build Angular 2 for CommonJS friendly",
+  "version": "0.1.0",
+  "author": {
+    "name": "OKUNOKENTARO",
+    "email": "okunokentaro@me.com",
+    "url": "https://github.com/armorik83"
+  },
+  "bugs": {
+    "url": "https://github.com/armorik83/commonjs-friendly-angular2/issues"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.21",
+    "babel": "^5.2.3"
+  },
+  "homepage": "https://github.com/armorik83/commonjs-friendly-angular2",
+  "keywords": [
+    "angular2",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/armorik83/commonjs-friendly-angular2.git"
+  },
+  "scripts": {
+    "postinstall": "sh build-angular2.sh && sh pick-angular2.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
